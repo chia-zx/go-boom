@@ -1,0 +1,18 @@
+.pane {
+    -fx-background-color: green;
+}
+
+.button {
+    -fx-background-color: rgb(207, 156, 46);
+    -fx-padding: 10px 20px 10px 20px;
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 20;
+    -fx-text-fill: black;
+    -fx-effect: innershadow(gaussian, rgba(0,0,0,0.8), 10, 0.5, 0, 2);
+}
+
+.button:hover {
+    -fx-background-color: black; 
+    -fx-text-fill: white;
+}
+
